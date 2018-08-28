@@ -1,0 +1,13 @@
+app:
+  config:
+     readFromFile: false
+     csv:
+       file:
+         path: C:/Users/jasveersingh/Downloads/All_India_pincode_data_26022018.csv
+         url : https://data.gov.in/sites/default/files/dataurl26022018/All_India_pincode_data_26022018.csv
+         cityIndex: 8
+     allowed:
+         specialcharacters: " "
+     regex:
+         input: ^[A-Za-z ]{0,100}$
+          
